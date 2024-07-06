@@ -13,7 +13,7 @@ function experience() {
               <div className="back-content">
                 <Image
                   fill
-                  src={`/images/esishowcase.jpg`}
+                  src={`/images/esishowcase.JPG`}
                   alt="image"
                 />
 
@@ -23,7 +23,7 @@ function experience() {
               <div className="img ">
                 <Image
                   fill
-                  src={`/images/esishowcase.jpg`}
+                  src={`/images/esishowcase.JPG`}
                   alt="image"
                 />
               </div>

@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
+import Image from "next/image";
 
 const inter = Poppins({weight:'400', subsets: ["latin-ext"] });
 

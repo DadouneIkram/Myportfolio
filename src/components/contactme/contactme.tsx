@@ -24,17 +24,17 @@ function contactme() {
   };
 
   return (
-    <section id='contactme' className='mx-20 mt-10'>
+    <section id='contactme' className='mx-10 mt-20'>
       <p className='cherry text-4xl justify-center flex '>Contact me</p>
       <p className='text-gray-400 text-lg flex justify-center text-center mt-6'>
-        Questions, bug reports , feedback ? - I'm here for it all
+        Questions, bug reports , feedback ? <br /> I'm here for it all
       </p>
       <div>
         <div className="grid grid-cols-1 gap-10   items-center justify-center md:grid-cols-2  mt-8 ">
 
           <div className="form-card2">
             <form className="form py-4">
-              <div className='flex flex-col md:flex-row md:space-x-4 mb-1'>
+              <div className='flex flex-col md:flex-row md:space-x-4'>
                 <div>
                   <label className="block text-white mb-1" htmlFor="firstName">First name</label>
                   <div className="form-field w-full  mb-4 md:mb-0">
@@ -49,7 +49,7 @@ function contactme() {
 
                 <div>
                   <label className="block text-white mb-1" htmlFor="firstName">Last name</label>
-                  <div className="form-field w-full  mb-4 md:mb-0">
+                  <div className="form-field w-full mb-2  md:mb-0">
                     <input
                       required
                       placeholder="Last name"
